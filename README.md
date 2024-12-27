@@ -13,7 +13,7 @@ Dự án này là một ứng dụng quản lý cửa hàng mỹ phẩm trực t
 
 ## Thiết Kế Cơ Sở Dữ Liệu
 Schema cơ sở dữ liệu bao gồm các bảng sau:
-![database diagram] (drawSQL-image-export-2024-12-27.png)
+![database diagram] (https://github.com/phanhh122/WebBanHang/blob/main/drawSQL-image-export-2024-12-27.png)
 
 ### 1. **Users**
 Quản lý tài khoản người dùng:
