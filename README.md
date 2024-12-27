@@ -1,6 +1,6 @@
 # Ứng Dụng Quản Lý Cửa Hàng Mỹ Phẩm Online
 
-## Tổng Quan
+## Giới thiệu tổng quan
 Dự án này là một ứng dụng quản lý cửa hàng mỹ phẩm trực tuyến, được phát triển bằng **Laravel PHP Framework**, nhằm tối ưu hóa hoạt động kinh doanh cho các cửa hàng bán các sản phẩm làm đẹp và chăm sóc da. Ứng dụng sử dụng cơ sở dữ liệu quan hệ để quản lý sản phẩm, người dùng, đơn hàng và các thực thể quan trọng khác.
 
 ## Tính Năng
