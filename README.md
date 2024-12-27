@@ -13,6 +13,7 @@ Dự án này là một ứng dụng quản lý cửa hàng mỹ phẩm trực t
 
 ## Thiết Kế Cơ Sở Dữ Liệu
 Schema cơ sở dữ liệu bao gồm các bảng sau:
+![database diagram] ()
 
 ### 1. **Users**
 Quản lý tài khoản người dùng:
@@ -137,5 +138,6 @@ Lưu cài đặt chung cho ứng dụng:
 Dự án này được cấp phép theo giấy phép MIT. Xem tệp LICENSE để biết thêm chi tiết.
 
 ## Liên Hệ
-Để biết thêm thông tin, vui lòng liên hệ với chủ sở hữu dự án.
+- Để biết thêm thông tin hoặc hỗ trợ, vui lòng liên hệ qua email: [ntphuoganh@gmail.com](mailto:ntphuoganhe@gmail.com).
+
 
