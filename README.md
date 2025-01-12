@@ -1,4 +1,5 @@
-# PA Cosmetic - Website Bán Mỹ Phẩm
+# Họ và tên sinh viên: [Nguyễn Thị Phương Anh - 22010079](https://github.com/phanhh122)
+# Dự án: Website Bán Mỹ Phẩm PA Cosmetic
 
 ## 1. Giới thiệu
 **PA Cosmetic** là một website thương mại điện tử được phát triển bằng **Laravel**, dành cho việc bán và quản lý các sản phẩm mỹ phẩm. Dự án được xây dựng nhằm mang đến một nền tảng dễ sử dụng để quản lý sản phẩm, khách hàng và đơn hàng.
@@ -67,10 +68,7 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 ### Sơ đồ cơ sở dữ liệu:
 ![database diagram](./drawSQL-image-export-2024-12-27.png)
 
-## 5. Contributors: Nguyễn Thị Phương Anh
-- Liên hệ: [ntphuoganh@gmail.com] / [0375866804].
-
-## 6. Giao diện Admin
+## 5. Giao diện Admin
 ### Đăng nhập
 ![img](./img/admin/dangnhap.jpg)
 ### Quản lý danh mục
@@ -84,7 +82,7 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 ![img](./img/admin/xemdonhang.jpg)
 ### Xem thông tin khách hàng
 ![img](./img/admin/xemttkh.jpg)
-## 7. Giao diện Người dùng
+## 6. Giao diện Người dùng
 ### Trang chủ
 ![img](./img/user/trangchu.jpg)
 ### Xem sản phẩm
@@ -92,7 +90,7 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 ### Quản lý giỏ hàng và đặt hàng
 ![img](./img/user/giohang.jpg)
 ![img](./img/user/thanhtoan.jpg)
-## 8. Ghi chú
+## 77. Ghi chú
 - Dự án đang trong giai đoạn phát triển, bạn có thể đề xuất tính năng hoặc báo cáo lỗi thông qua **GitHub Issues**.
 - Cải tiến tương lai:
   - Tích hợp thanh toán online (VD: Momo, VNPAY).
