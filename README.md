@@ -69,6 +69,7 @@ http://127.0.0.1:8000
 ```
 
 ### 4. Sơ đồ User Case 
+![database diagram](./uctq.drawio.png)
 ### 5. Cơ sở dữ liệu
 Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 
@@ -131,7 +132,7 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 #### Quản lý đơn hàng
 ### 12. Giao diện Người dùng
 #### Xem sản phẩm
-#### Quản lý giỏ hàng và đặt hànghàng
+#### Quản lý giỏ hàng và đặt hàng
 
 ### 13. Ghi chú
 - Dự án đang trong giai đoạn phát triển, bạn có thể đề xuất tính năng hoặc báo cáo lỗi thông qua **GitHub Issues**.
