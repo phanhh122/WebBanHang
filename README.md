@@ -40,36 +40,24 @@ composer install
 ```
 
 #### Bước 3: Cài đặt cơ sở dữ liệu
-- Tạo một cơ sở dữ liệu mới trong **phpMyAdmin** (VD: `pa_cosmetic`).
+- Tạo một cơ sở dữ liệu mới trong **phpMyAdmin** (VD: `cosmetic`).
 - Chỉnh sửa file `.env` trong thư mục gốc để kết nối với database:
   ```env
   DB_CONNECTION=mysql
   DB_HOST=127.0.0.1
   DB_PORT=3306
-  DB_DATABASE=pa_cosmetic
+  DB_DATABASE=cosmetic
   DB_USERNAME=root
   DB_PASSWORD=
   ```
 
-#### Bước 4: Chạy migration và seed dữ liệu
+#### Bước 4: Chạy migration dữ liệu
 Tạo các bảng trong cơ sở dữ liệu:
 ```bash
 php artisan migrate
 ```
 
-Nếu có seed dữ liệu (tùy chọn), chạy:
-```bash
-php artisan db:seed
-```
-
-#### Bước 5: Cài đặt frontend (nếu có sử dụng npm)
-Cài đặt các package cần thiết:
-```bash
-npm install
-npm run dev
-```
-
-#### Bước 6: Chạy ứng dụng
+#### Bước 5: Chạy ứng dụng
 Khởi động server bằng lệnh:
 ```bash
 php artisan serve
