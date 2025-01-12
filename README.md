@@ -139,12 +139,15 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 #### Xem thông tin khách hàng
 ![img](./img/admin/xemttkh.jpg)
 ### 12. Giao diện Người dùng
+#### Trang chủ
+![img](./img/user/trangchu.jpg)
 #### Xem sản phẩm
+![img](./img/use/xemsp.jpg)
 #### Quản lý giỏ hàng và đặt hàng
-
+![img](./img/user/giohang.jpg)
+![img](./img/user/thanhtoan.jpg)
 ### 13. Ghi chú
 - Dự án đang trong giai đoạn phát triển, bạn có thể đề xuất tính năng hoặc báo cáo lỗi thông qua **GitHub Issues**.
 - Cải tiến tương lai:
   - Tích hợp thanh toán online (VD: Momo, VNPAY).
-  - Hỗ trợ đa ngôn ngữ.
   - Thêm API cho mobile app.
