@@ -126,10 +126,18 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 
 ### 11. Giao diện Admin
 #### Đăng nhập
+![img](./img/admin/dangnhap.jpg)
 #### Quản lý danh mục
+![img](./img/admin/qldanhmuc.jpg)
+![img](./img/admin/xemdanhmuc.jpg)
 #### Quản lý sản phẩm
+![img](./img/admin/xemsanpham.jpg)
 #### Quản lý slider
+![img](./img/admin/xemslide.jpg)
 #### Quản lý đơn hàng
+![img](./img/admin/xemdonhang.jpg)
+#### Xem thông tin khách hàng
+![img](./img/admin/xemttkh.jpg)
 ### 12. Giao diện Người dùng
 #### Xem sản phẩm
 #### Quản lý giỏ hàng và đặt hàng
