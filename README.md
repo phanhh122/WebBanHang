@@ -1,4 +1,4 @@
-## README: PA Cosmetic - Website Bán Mỹ Phẩm
+## PA Cosmetic - Website Bán Mỹ Phẩm
 
 ### 1. Giới thiệu
 **PA Cosmetic** là một website thương mại điện tử được phát triển bằng **Laravel**, dành cho việc bán và quản lý các sản phẩm mỹ phẩm. Dự án được xây dựng nhằm mang đến một nền tảng dễ sử dụng để quản lý sản phẩm, khách hàng và đơn hàng.
