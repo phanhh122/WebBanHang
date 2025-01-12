@@ -11,50 +11,32 @@
 - Tích hợp trình soạn thảo văn bản **CKEditor** để chỉnh sửa nội dung sản phẩm.
 - Giao diện quản trị chuyên nghiệp dựa trên **AdminLTE** của ColorlibHQ.
 
-### 2. Yêu cầu hệ thống
-Để chạy dự án, cần đảm bảo hệ thống đáp ứng các yêu cầu sau:
-
-#### Phần mềm:
-- **XAMPP** (phiên bản >= 7.4): PHP, MySQL, Apache.
-- **Composer** (trình quản lý gói PHP).
-- **Visual Studio Code**
-
-#### Công nghệ sử dụng:
-- **Laravel Framework**: 9.x
-- **MySQL**: Quản lý cơ sở dữ liệu.
-- **HTML/CSS/JavaScript**: Giao diện người dùng.
-- **CKEditor**: Trình soạn thảo nội dung sản phẩm.
-- **AdminLTE**: Giao diện quản trị.
-
-### 3. Hướng dẫn cài đặt
+### 2. Hướng dẫn cài đặt
 #### Bước 1: Clone dự án về máy
 ```bash
 git clone https://github.com/phanhh122/WebBanHang.git
 cd Cosmetic
 ```
 
-#### Bước 2: Cài đặt các package PHP
+#### Bước 2: Cài đặt các thư viện phụ 
 Đảm bảo bạn đã cài **Composer**, sau đó chạy:
 ```bash
 composer install
+npm install
 ```
 
-#### Bước 3: Cài đặt cơ sở dữ liệu
-- Tạo một cơ sở dữ liệu mới trong **phpMyAdmin** (VD: `cosmetic`).
-- Chỉnh sửa file `.env` trong thư mục gốc để kết nối với database:
-  ```env
-  DB_CONNECTION=mysql
-  DB_HOST=127.0.0.1
-  DB_PORT=3306
-  DB_DATABASE=cosmetic
-  DB_USERNAME=root
-  DB_PASSWORD=
-  ```
+#### Bước 3: Thiết lập biến môi trường
+```
+cp .env.example .env
+php artisan key:generate
+```
 
-#### Bước 4: Chạy migration dữ liệu
+#### Bước 4: Cấu hình cơ sở dữ liệu
+Chỉnh sửa file .env để khớp với cấu hình cơ sở dữ liệu trên máy của bạn.
+Sau đó chạy Migration và Seed: 
 Tạo các bảng trong cơ sở dữ liệu:
 ```bash
-php artisan migrate
+php artisan migrate --seed
 ```
 
 #### Bước 5: Chạy ứng dụng
