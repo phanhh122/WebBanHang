@@ -67,45 +67,10 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 ### Sơ đồ cơ sở dữ liệu:
 ![database diagram](./drawSQL-image-export-2024-12-27.png)
 
-## 5. Các tính năng chi tiết
-#### Frontend:
-- Hiển thị sản phẩm theo danh mục.
-- Tìm kiếm và lọc sản phẩm.
-- Quản lý giỏ hàng và thanh toán.
-
-#### Backend:
-- Quản lý sản phẩm (thêm, sửa, xóa) với giao diện dựa trên **AdminLTE**.
-- Tích hợp **CKEditor** để chỉnh sửa nội dung sản phẩm dễ dàng.
-- Quản lý khách hàng và đơn hàng.
-- Cài đặt slider quảng cáo.
-
-## 66. Triển khai trên môi trường sản xuất
-#### Chuẩn bị hosting hoặc server:
-- Cài đặt Apache hoặc Nginx.
-- Đảm bảo PHP và MySQL đã được cài đặt.
-
-#### Bước triển khai:
-1. **Upload code lên server**.
-2. Chạy `composer install` để cài đặt package.
-3. Cấu hình file `.env` cho kết nối cơ sở dữ liệu.
-4. Chạy `php artisan migrate --force` để tạo bảng.
-5. Sử dụng **Laravel Scheduler** nếu có các tác vụ tự động.
-
-## 7. Tích hợp CKEditor
-- **CKEditor** được sử dụng để chỉnh sửa nội dung chi tiết sản phẩm.
-- Các file CSS và JS cần được tích hợp trong form chỉnh sửa sản phẩm.
-
-## 8. Giao diện Admin với AdminLTE
-- **AdminLTE** được sử dụng để xây dựng giao diện quản trị.
-- Bao gồm các module:
-  - Dashboard: Thống kê doanh thu và sản phẩm.
-  - Quản lý sản phẩm, khách hàng, đơn hàng.
-  - Slider quảng cáo và cài đặt cấu hình.
-
-## 9. Contributors: Nguyễn Thị Phương Anh
+## 5. Contributors: Nguyễn Thị Phương Anh
 - Liên hệ: [ntphuoganh@gmail.com] / [0375866804].
 
-## 10. Giao diện Admin
+## 6. Giao diện Admin
 ### Đăng nhập
 ![img](./img/admin/dangnhap.jpg)
 ### Quản lý danh mục
@@ -119,7 +84,7 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 ![img](./img/admin/xemdonhang.jpg)
 ### Xem thông tin khách hàng
 ![img](./img/admin/xemttkh.jpg)
-## 11. Giao diện Người dùng
+## 7. Giao diện Người dùng
 ### Trang chủ
 ![img](./img/user/trangchu.jpg)
 ### Xem sản phẩm
@@ -127,7 +92,7 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 ### Quản lý giỏ hàng và đặt hàng
 ![img](./img/user/giohang.jpg)
 ![img](./img/user/thanhtoan.jpg)
-## 12. Ghi chú
+## 8. Ghi chú
 - Dự án đang trong giai đoạn phát triển, bạn có thể đề xuất tính năng hoặc báo cáo lỗi thông qua **GitHub Issues**.
 - Cải tiến tương lai:
   - Tích hợp thanh toán online (VD: Momo, VNPAY).
