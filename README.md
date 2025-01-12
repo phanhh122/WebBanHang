@@ -96,7 +96,7 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 9. **Settings**: Cấu hình chung của website.
 
 #### Sơ đồ cơ sở dữ liệu:
-*(Thêm sơ đồ cơ sở dữ liệu hoặc liên kết đến file hình ảnh nếu có.)*
+![database diagram](./drawSQL-image-export-2024-12-27.png)
 
 ### 5. Các tính năng chi tiết
 #### Frontend:
@@ -135,7 +135,7 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 
 ### 9. Contributors
 - **Tên của bạn**: Nguyễn Thị Phương Anh
-- Liên hệ: [Email của bạn] / [Số điện thoại].
+- Liên hệ: [ntphuoganh@gmail.com] / [0375866804].
 
 ### 10. Ghi chú
 - Dự án đang trong giai đoạn phát triển, bạn có thể đề xuất tính năng hoặc báo cáo lỗi thông qua **GitHub Issues**.
