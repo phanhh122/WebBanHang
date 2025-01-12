@@ -1,7 +1,7 @@
 ## README: PA Cosmetic - Website Bán Mỹ Phẩm
 
 ### 1. Giới thiệu
-**PA Cosmetic** là một website thương mại điện tử được phát triển bằng **Laravel**, dành cho việc bán và quản lý các sản phẩm mỹ phẩm. Dự án được xây dựng nhằm mang đến một nền tảng chuyên nghiệp, dễ sử dụng để quản lý sản phẩm, khách hàng và đơn hàng.
+**PA Cosmetic** là một website thương mại điện tử được phát triển bằng **Laravel**, dành cho việc bán và quản lý các sản phẩm mỹ phẩm. Dự án được xây dựng nhằm mang đến một nền tảng dễ sử dụng để quản lý sản phẩm, khách hàng và đơn hàng.
 
 #### Các tính năng chính:
 - Hiển thị danh sách sản phẩm theo danh mục.
@@ -12,13 +12,12 @@
 - Giao diện quản trị chuyên nghiệp dựa trên **AdminLTE** của ColorlibHQ.
 
 ### 2. Yêu cầu hệ thống
-Để chạy dự án, bạn cần đảm bảo hệ thống đáp ứng các yêu cầu sau:
+Để chạy dự án, cần đảm bảo hệ thống đáp ứng các yêu cầu sau:
 
 #### Phần mềm:
 - **XAMPP** (phiên bản >= 7.4): PHP, MySQL, Apache.
 - **Composer** (trình quản lý gói PHP).
-- **Node.js** (nếu cần cài đặt các package frontend).
-- **Visual Studio Code** (hoặc IDE khác).
+- **Visual Studio Code**
 
 #### Công nghệ sử dụng:
 - **Laravel Framework**: 9.x
@@ -31,7 +30,7 @@
 #### Bước 1: Clone dự án về máy
 ```bash
 git clone https://github.com/phanhh122/WebBanHang.git
-cd WebBanHang
+cd Cosmetic
 ```
 
 #### Bước 2: Cài đặt các package PHP
@@ -81,8 +80,8 @@ Mở trình duyệt và truy cập vào địa chỉ:
 http://127.0.0.1:8000
 ```
 
-
-### 4. Cơ sở dữ liệu
+### 4. Sơ đồ User Case 
+### 5. Cơ sở dữ liệu
 Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 
 1. **Users**: Quản lý tài khoản người dùng.
@@ -98,7 +97,7 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 #### Sơ đồ cơ sở dữ liệu:
 ![database diagram](./drawSQL-image-export-2024-12-27.png)
 
-### 5. Các tính năng chi tiết
+### 6. Các tính năng chi tiết
 #### Frontend:
 - Hiển thị sản phẩm theo danh mục.
 - Tìm kiếm và lọc sản phẩm.
@@ -110,7 +109,7 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 - Quản lý khách hàng và đơn hàng.
 - Cài đặt slider quảng cáo.
 
-### 6. Triển khai trên môi trường sản xuất
+### 7. Triển khai trên môi trường sản xuất
 #### Chuẩn bị hosting hoặc server:
 - Cài đặt Apache hoặc Nginx.
 - Đảm bảo PHP và MySQL đã được cài đặt.
@@ -122,22 +121,31 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 4. Chạy `php artisan migrate --force` để tạo bảng.
 5. Sử dụng **Laravel Scheduler** nếu có các tác vụ tự động.
 
-### 7. Tích hợp CKEditor
+### 8. Tích hợp CKEditor
 - **CKEditor** được sử dụng để chỉnh sửa nội dung chi tiết sản phẩm.
 - Các file CSS và JS cần được tích hợp trong form chỉnh sửa sản phẩm.
 
-### 8. Giao diện Admin với AdminLTE
+### 9. Giao diện Admin với AdminLTE
 - **AdminLTE** được sử dụng để xây dựng giao diện quản trị.
 - Bao gồm các module:
   - Dashboard: Thống kê doanh thu và sản phẩm.
   - Quản lý sản phẩm, khách hàng, đơn hàng.
   - Slider quảng cáo và cài đặt cấu hình.
 
-### 9. Contributors
-- **Tên của bạn**: Nguyễn Thị Phương Anh
+### 10. Contributors: Nguyễn Thị Phương Anh
 - Liên hệ: [ntphuoganh@gmail.com] / [0375866804].
 
-### 10. Ghi chú
+### 11. Giao diện Admin
+#### Đăng nhập
+#### Quản lý danh mục
+#### Quản lý sản phẩm
+#### Quản lý slider
+#### Quản lý đơn hàng
+### 12. Giao diện Người dùng
+#### Xem sản phẩm
+#### Quản lý giỏ hàng và đặt hànghàng
+
+### 13. Ghi chú
 - Dự án đang trong giai đoạn phát triển, bạn có thể đề xuất tính năng hoặc báo cáo lỗi thông qua **GitHub Issues**.
 - Cải tiến tương lai:
   - Tích hợp thanh toán online (VD: Momo, VNPAY).
