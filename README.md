@@ -11,8 +11,6 @@
 - Tích hợp trình soạn thảo văn bản **CKEditor** để chỉnh sửa nội dung sản phẩm.
 - Giao diện quản trị chuyên nghiệp dựa trên **AdminLTE** của ColorlibHQ.
 
----
-
 ### 2. Yêu cầu hệ thống
 Để chạy dự án, bạn cần đảm bảo hệ thống đáp ứng các yêu cầu sau:
 
@@ -28,8 +26,6 @@
 - **HTML/CSS/JavaScript**: Giao diện người dùng.
 - **CKEditor**: Trình soạn thảo nội dung sản phẩm.
 - **AdminLTE**: Giao diện quản trị.
-
----
 
 ### 3. Hướng dẫn cài đặt
 #### Bước 1: Clone dự án về máy
@@ -85,8 +81,6 @@ Mở trình duyệt và truy cập vào địa chỉ:
 http://127.0.0.1:8000
 ```
 
----
-
 ### 4. Cơ sở dữ liệu
 Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 
@@ -103,8 +97,6 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 #### Sơ đồ cơ sở dữ liệu:
 ![database diagram](./drawSQL-image-export-2024-12-27.png)
 
----
-
 ### 5. Các tính năng chi tiết
 #### Frontend:
 - Hiển thị sản phẩm theo danh mục.
@@ -117,8 +109,6 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 - Quản lý khách hàng và đơn hàng.
 - Cài đặt slider quảng cáo.
 
----
-
 ### 6. Triển khai trên môi trường sản xuất
 #### Chuẩn bị hosting hoặc server:
 - Cài đặt Apache hoặc Nginx.
@@ -130,8 +120,6 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 3. Cấu hình file `.env` cho kết nối cơ sở dữ liệu.
 4. Chạy `php artisan migrate --force` để tạo bảng.
 5. Sử dụng **Laravel Scheduler** nếu có các tác vụ tự động.
-
----
 
 ### 7. Tích hợp CKEditor
 - **CKEditor** được sử dụng để chỉnh sửa nội dung chi tiết sản phẩm.
@@ -146,8 +134,6 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
    </script>
    ```
 
----
-
 ### 8. Giao diện Admin với AdminLTE
 - **AdminLTE** được sử dụng để xây dựng giao diện quản trị.
 - Bao gồm các module:
@@ -155,13 +141,9 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
   - Quản lý sản phẩm, khách hàng, đơn hàng.
   - Slider quảng cáo và cài đặt cấu hình.
 
----
-
 ### 9. Contributors
 - **Tên của bạn**: Nguyễn Thị Phương Anh
 - Liên hệ: [Email của bạn] / [Số điện thoại].
-
----
 
 ### 10. Ghi chú
 - Dự án đang trong giai đoạn phát triển, bạn có thể đề xuất tính năng hoặc báo cáo lỗi thông qua **GitHub Issues**.
