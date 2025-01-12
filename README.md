@@ -18,7 +18,7 @@ git clone https://github.com/phanhh122/WebBanHang.git
 cd Cosmetic
 ```
 
-#### Bước 2: Cài đặt các thư viện phụ 
+#### Bước 2: Cài đặt các thư viện phụ thuộc
 Đảm bảo bạn đã cài **Composer**, sau đó chạy:
 ```bash
 composer install
