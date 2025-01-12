@@ -89,7 +89,7 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 ### Quản lý giỏ hàng và đặt hàng
 ![img](./img/user/giohang.jpg)
 ![img](./img/user/thanhtoan.jpg)
-## 77. Ghi chú
+## 7. Ghi chú
 - Dự án đang trong giai đoạn phát triển, bạn có thể đề xuất tính năng hoặc báo cáo lỗi thông qua **GitHub Issues**.
 - Cải tiến tương lai:
   - Tích hợp thanh toán online (VD: Momo, VNPAY).
