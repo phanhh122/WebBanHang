@@ -142,7 +142,7 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 #### Trang chủ
 ![img](./img/user/trangchu.jpg)
 #### Xem sản phẩm
-![img](./img/use/xemsp.jpg)
+![img](./img/user/xemsp.jpg)
 #### Quản lý giỏ hàng và đặt hàng
 ![img](./img/user/giohang.jpg)
 ![img](./img/user/thanhtoan.jpg)
