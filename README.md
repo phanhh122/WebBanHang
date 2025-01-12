@@ -1,9 +1,9 @@
-## PA Cosmetic - Website Bán Mỹ Phẩm
+# PA Cosmetic - Website Bán Mỹ Phẩm
 
-### 1. Giới thiệu
+## 1. Giới thiệu
 **PA Cosmetic** là một website thương mại điện tử được phát triển bằng **Laravel**, dành cho việc bán và quản lý các sản phẩm mỹ phẩm. Dự án được xây dựng nhằm mang đến một nền tảng dễ sử dụng để quản lý sản phẩm, khách hàng và đơn hàng.
 
-#### Các tính năng chính:
+### Các tính năng chính:
 - Hiển thị danh sách sản phẩm theo danh mục.
 - Quản lý giỏ hàng và thanh toán.
 - Tìm kiếm và lọc sản phẩm.
@@ -11,7 +11,7 @@
 - Tích hợp trình soạn thảo văn bản **CKEditor** để chỉnh sửa nội dung sản phẩm.
 - Giao diện quản trị chuyên nghiệp dựa trên **AdminLTE** của ColorlibHQ.
 
-### 2. Hướng dẫn cài đặt
+## 2. Hướng dẫn cài đặt
 #### Bước 1: Clone dự án về máy
 ```bash
 git clone https://github.com/phanhh122/WebBanHang.git
@@ -50,11 +50,10 @@ Mở trình duyệt và truy cập vào địa chỉ:
 http://127.0.0.1:8000
 ```
 
-### 4. Sơ đồ User Case 
+## 3. Sơ đồ User Case 
 ![database diagram](./uctq.drawio.png)
-### 5. Cơ sở dữ liệu
+## 4. Cơ sở dữ liệu
 Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
-
 1. **Users**: Quản lý tài khoản người dùng.
 2. **Menus**: Danh mục sản phẩm.
 3. **Products**: Thông tin sản phẩm (tên, giá, giảm giá, hình ảnh).
@@ -65,10 +64,10 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 8. **Tags** và **Product_Tags**: Gắn thẻ sản phẩm.
 9. **Settings**: Cấu hình chung của website.
 
-#### Sơ đồ cơ sở dữ liệu:
+### Sơ đồ cơ sở dữ liệu:
 ![database diagram](./drawSQL-image-export-2024-12-27.png)
 
-### 6. Các tính năng chi tiết
+## 5. Các tính năng chi tiết
 #### Frontend:
 - Hiển thị sản phẩm theo danh mục.
 - Tìm kiếm và lọc sản phẩm.
@@ -80,7 +79,7 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 - Quản lý khách hàng và đơn hàng.
 - Cài đặt slider quảng cáo.
 
-### 7. Triển khai trên môi trường sản xuất
+## 66. Triển khai trên môi trường sản xuất
 #### Chuẩn bị hosting hoặc server:
 - Cài đặt Apache hoặc Nginx.
 - Đảm bảo PHP và MySQL đã được cài đặt.
@@ -92,43 +91,43 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 4. Chạy `php artisan migrate --force` để tạo bảng.
 5. Sử dụng **Laravel Scheduler** nếu có các tác vụ tự động.
 
-### 8. Tích hợp CKEditor
+## 7. Tích hợp CKEditor
 - **CKEditor** được sử dụng để chỉnh sửa nội dung chi tiết sản phẩm.
 - Các file CSS và JS cần được tích hợp trong form chỉnh sửa sản phẩm.
 
-### 9. Giao diện Admin với AdminLTE
+## 8. Giao diện Admin với AdminLTE
 - **AdminLTE** được sử dụng để xây dựng giao diện quản trị.
 - Bao gồm các module:
   - Dashboard: Thống kê doanh thu và sản phẩm.
   - Quản lý sản phẩm, khách hàng, đơn hàng.
   - Slider quảng cáo và cài đặt cấu hình.
 
-### 10. Contributors: Nguyễn Thị Phương Anh
+## 9. Contributors: Nguyễn Thị Phương Anh
 - Liên hệ: [ntphuoganh@gmail.com] / [0375866804].
 
-### 11. Giao diện Admin
-#### Đăng nhập
+## 10. Giao diện Admin
+### Đăng nhập
 ![img](./img/admin/dangnhap.jpg)
-#### Quản lý danh mục
+### Quản lý danh mục
 ![img](./img/admin/qldanhmuc.jpg)
 ![img](./img/admin/xemdanhmuc.jpg)
-#### Quản lý sản phẩm
+### Quản lý sản phẩm
 ![img](./img/admin/xemsanpham.jpg)
-#### Quản lý slider
+### Quản lý slider
 ![img](./img/admin/xemslide.jpg)
-#### Quản lý đơn hàng
+### Quản lý đơn hàng
 ![img](./img/admin/xemdonhang.jpg)
-#### Xem thông tin khách hàng
+### Xem thông tin khách hàng
 ![img](./img/admin/xemttkh.jpg)
-### 12. Giao diện Người dùng
-#### Trang chủ
+## 11. Giao diện Người dùng
+### Trang chủ
 ![img](./img/user/trangchu.jpg)
-#### Xem sản phẩm
+### Xem sản phẩm
 ![img](./img/user/xemsp.jpg)
-#### Quản lý giỏ hàng và đặt hàng
+### Quản lý giỏ hàng và đặt hàng
 ![img](./img/user/giohang.jpg)
 ![img](./img/user/thanhtoan.jpg)
-### 13. Ghi chú
+## 12. Ghi chú
 - Dự án đang trong giai đoạn phát triển, bạn có thể đề xuất tính năng hoặc báo cáo lỗi thông qua **GitHub Issues**.
 - Cải tiến tương lai:
   - Tích hợp thanh toán online (VD: Momo, VNPAY).
