@@ -93,5 +93,5 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 - Dự án đang trong giai đoạn phát triển, bạn có thể đề xuất tính năng hoặc báo cáo lỗi thông qua **GitHub Issues**.
 - Cải tiến tương lai:
   - Đăng ký, đăng nhập cho user
-  - Tích hợp thanh toán online (VD: Momo, VNPAY).
+  - Tích hợp thanh toán online (Momo, VNPAY).
  
