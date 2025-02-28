@@ -52,46 +52,7 @@ http://127.0.0.1:8000
 
 ## 3. Sơ đồ User Case 
 ![database diagram](./uctq.drawio.png)
-## 4. Cơ sở dữ liệu
-Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
-1. **Users**: Quản lý tài khoản người dùng.
-2. **Menus**: Danh mục sản phẩm.
-3. **Products**: Thông tin sản phẩm (tên, giá, giảm giá, hình ảnh).
-4. **Customers**: Thông tin khách hàng.
-5. **Orders** và **Order_Items**: Quản lý đơn hàng và sản phẩm trong từng đơn.
-6. **Carts**: Giỏ hàng tạm của khách hàng.
-7. **Sliders**: Hình ảnh quảng cáo.
-8. **Tags** và **Product_Tags**: Gắn thẻ sản phẩm.
-9. **Settings**: Cấu hình chung của website.
-
-### Sơ đồ cơ sở dữ liệu:
-![database diagram](./drawSQL-image-export-2024-12-27.png)
-
-## 5. Giao diện Admin
-### Đăng nhập
-![img](./img/admin/dangnhap.jpg)
-### Quản lý danh mục
-![img](./img/admin/qldanhmuc.jpg)
-![img](./img/admin/xemdanhmuc.jpg)
-### Quản lý sản phẩm
-![img](./img/admin/xemsanpham.jpg)
-### Quản lý slider
-![img](./img/admin/xemslide.jpg)
-### Quản lý đơn hàng
-![img](./img/admin/xemdonhang.jpg)
-### Xem thông tin khách hàng
-![img](./img/admin/xemttkh.jpg)
-## 6. Giao diện Người dùng
-### Trang chủ
-![img](./img/user/trangchu.jpg)
-### Xem sản phẩm
-![img](./img/user/xemsp.jpg)
-### Quản lý giỏ hàng và đặt hàng
-![img](./img/user/giohang.jpg)
-![img](./img/user/thanhtoan.jpg)
-## 7. Ghi chú
-- Dự án đang trong giai đoạn phát triển, bạn có thể đề xuất tính năng hoặc báo cáo lỗi thông qua **GitHub Issues**.
-- Cải tiến tương lai:
-  - Đăng ký, đăng nhập cho user
-  - Tích hợp thanh toán online (Momo, VNPAY).
+## 4. Cơ shàng
+- Đăng ký, đăng nhập cho user
+- Tích hợp thanh toán online (Momo, VNPAY).
  
