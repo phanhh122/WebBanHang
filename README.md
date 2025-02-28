@@ -53,7 +53,7 @@ http://127.0.0.1:8000
 ## 3. Sơ đồ User Case 
 ![database diagram](./uctq.drawio.png)
 ## 4. Class Diagram
-![database diagram](./classdia.png)
+![database diagram](./classdiagram.drawio.png)
 
 ## 5. Giao diện Admin
 ### Đăng nhập
