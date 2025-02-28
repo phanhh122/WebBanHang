@@ -52,7 +52,7 @@ http://127.0.0.1:8000
 
 ## 3. Sơ đồ User Case 
 ![database diagram](./uctq.drawio.png)
-## 4. Cơ sở dữ liệu
+## 4. Class Diagram
 Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 1. **Users**: Quản lý tài khoản người dùng.
 2. **Menus**: Danh mục sản phẩm.
@@ -64,8 +64,8 @@ Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
 8. **Tags** và **Product_Tags**: Gắn thẻ sản phẩm.
 9. **Settings**: Cấu hình chung của website.
 
-### Sơ đồ cơ sở dữ liệu:
-![database diagram](./drawSQL-image-export-2024-12-27.png)
+### Class diagram:
+![database diagram](./classdia.png)
 
 ## 5. Giao diện Admin
 ### Đăng nhập
