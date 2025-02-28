@@ -53,9 +53,11 @@ http://127.0.0.1:8000
 ## 3. Sơ đồ User Case 
 ![database diagram](./uctq.drawio.png)
 ## 4. Class Diagram
-![database diagram](./classdiagram.drawio.png)
+![class diagram](./classdiagram.drawio.png)
+## 5. Sequence Diagram
+![sequence diagram](./sequence.png)
 
-## 5. Giao diện Admin
+## 6. Giao diện Admin
 ### Đăng nhập
 ![img](./img/admin/dangnhap.jpg)
 ### Quản lý danh mục
@@ -69,7 +71,7 @@ http://127.0.0.1:8000
 ![img](./img/admin/xemdonhang.jpg)
 ### Xem thông tin khách hàng
 ![img](./img/admin/xemttkh.jpg)
-## 6. Giao diện Người dùng
+## 7. Giao diện Người dùng
 ### Trang chủ
 ![img](./img/user/trangchu.jpg)
 ### Xem sản phẩm
@@ -77,7 +79,7 @@ http://127.0.0.1:8000
 ### Quản lý giỏ hàng và đặt hàng
 ![img](./img/user/giohang.jpg)
 ![img](./img/user/thanhtoan.jpg)
-## 7. Ghi chú
+## 8. Ghi chú
 - Dự án đang trong giai đoạn phát triển, bạn có thể đề xuất tính năng hoặc báo cáo lỗi thông qua **GitHub Issues**.
 - Cải tiến tương lai:
   - Đăng ký, đăng nhập cho user
