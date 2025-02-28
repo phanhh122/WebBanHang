@@ -53,18 +53,6 @@ http://127.0.0.1:8000
 ## 3. Sơ đồ User Case 
 ![database diagram](./uctq.drawio.png)
 ## 4. Class Diagram
-Dự án sử dụng các bảng sau trong cơ sở dữ liệu:
-1. **Users**: Quản lý tài khoản người dùng.
-2. **Menus**: Danh mục sản phẩm.
-3. **Products**: Thông tin sản phẩm (tên, giá, giảm giá, hình ảnh).
-4. **Customers**: Thông tin khách hàng.
-5. **Orders** và **Order_Items**: Quản lý đơn hàng và sản phẩm trong từng đơn.
-6. **Carts**: Giỏ hàng tạm của khách hàng.
-7. **Sliders**: Hình ảnh quảng cáo.
-8. **Tags** và **Product_Tags**: Gắn thẻ sản phẩm.
-9. **Settings**: Cấu hình chung của website.
-
-### Class diagram:
 ![database diagram](./classdia.png)
 
 ## 5. Giao diện Admin
